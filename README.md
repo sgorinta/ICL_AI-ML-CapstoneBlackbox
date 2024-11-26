@@ -1,13 +1,13 @@
 # ICL_AI-ML-CapstoneBlackbox
-Purpose
+**Purpose**
 
 This project represents my first capstone for the Imperial College London (ICL) Professional Certificate in AI and Machine Learning, focusing on Blackbox Optimization. I’m sharing the notebooks I developed for the associated competition, along with an overview of the assignment. Although the functions themselves aren’t publicly accessible, these examples of basic Naive Bayes optimization code snippets can guide beginners in Machine Learning to gain practical experience and build confidence.
 
-Project Details
+**Project Details**
 
 We tackled eight unknown functions using Bayesian Optimization, aiming to maximize all eight functions despite limited context and varying input dimensions. Each function had distinct characteristics and complexities. Additionally, querying these functions came with significant constraints—we could only submit a query for a function every few days!
 
-Input Dimensions:
+**Input Dimensions:**
 - Function 1: 2-dimensional  
 - Function 2: 2-dimensional  
 - Function 3: 3-dimensional  
@@ -17,7 +17,7 @@ Input Dimensions:
 - Function 7: 6-dimensional  
 - Function 8: 8-dimensional  
 
-Context for Each Function is
+**Context for Each Function is**
 
 1. Searching for Contamination Sources - A  two-dimensional optimization problem involving identifying radiation sources within a square area. Radiation is detectable only at close range, leading to sparse observations. There are two sources, one less hazardous than the other, and your goal is to locate both effectively.
 
