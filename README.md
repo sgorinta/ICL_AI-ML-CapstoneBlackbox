@@ -1,7 +1,7 @@
 # ICL_AI-ML-CapstoneBlackbox
 **Purpose**
 
-This project represents my first capstone for the Imperial College London (ICL) Professional Certificate in AI and Machine Learning, focusing on Blackbox Optimization. I’m sharing the notebooks I developed for the associated competition, along with an overview of the assignment. Although the functions themselves aren’t publicly accessible, these examples of basic Naive Bayes optimization code snippets can guide beginners in Machine Learning to gain practical experience and build confidence.
+This project represents my first capstone for the Imperial College London (ICL) Professional Certificate in  Machine Learning and Artificial Intelligence, focusing on Blackbox Optimisation. I’m sharing the notebooks I developed for the associated competition, along with an overview of the assignment. Although the functions themselves aren’t publicly accessible, these examples of basic Naive Bayes optimization code snippets can guide beginners in Machine Learning to gain practical experience and build confidence.
 
 **Project Details**
 
