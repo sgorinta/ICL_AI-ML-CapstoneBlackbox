@@ -1,11 +1,11 @@
 # ICL_AI-ML-CapstoneBlackbox
 **Purpose**
 
-This project represents my first capstone for the Imperial College London (ICL) Professional Certificate in  Machine Learning and Artificial Intelligence, focusing on Blackbox Optimisation. I’m sharing the notebooks I developed for the associated competition, along with an overview of the assignment. Although the functions themselves aren’t publicly accessible, these examples of basic Naive Bayes optimization code snippets can guide beginners in Machine Learning to gain practical experience and build confidence.
+This project represents my first capstone for the Imperial College London (ICL) Professional Certificate in  Machine Learning and Artificial Intelligence, focusing on Blackbox Optimisation. I’m sharing the notebooks I developed for the associated competition, along with an overview of the assignment.
 
 **Project Details**
 
-We tackled eight unknown functions using Bayesian Optimization, aiming to maximize all eight functions despite limited context and varying input dimensions. Each function had distinct characteristics and complexities. Additionally, querying these functions came with significant constraints—we could only submit a query for a function every few days!
+We tackled eight unknown functions using Bayesian Optimisation, aiming to maximise all eight functions despite limited context and varying input dimensions. Each function had distinct characteristics and complexities. Additionally, querying these functions came with significant constraints—we could only submit a query for a function every week!
 
 **Input Dimensions:**
 - Function 1: 2-dimensional  
@@ -19,9 +19,9 @@ We tackled eight unknown functions using Bayesian Optimization, aiming to maximi
 
 **Context for Each Function is**
 
-1. Searching for Contamination Sources - A  two-dimensional optimization problem involving identifying radiation sources within a square area. Radiation is detectable only at close range, leading to sparse observations. There are two sources, one less hazardous than the other, and your goal is to locate both effectively.
+1. Searching for Contamination Sources - A  two-dimensional optimisation problem involving identifying radiation sources within a square area. Radiation is detectable only at close range, leading to sparse observations. There are two sources, one less hazardous than the other, and your goal is to locate both effectively.
 
-2. Optimising Noisy Models - This scenario involves maximising the log-likelihood of an unknown machine learning model. Due to critical initialization dependencies, the observations are highly noisy and filled with local optima, making it a complex two-dimensional optimisation problem.
+2. Optimising Noisy Models - This scenario involves maximising the log-likelihood of an unknown machine learning model. Due to critical initialisation dependencies, the observations are highly noisy and filled with local optima, making it a complex two-dimensional optimisation problem.
 
 3. Drug Discovery Problem - A 3-dimensional problem in drug discovery where you select three compounds to form a drug. The aim is to minimise adverse reactions, measured by the output. One compound might have no impact, adding an extra layer of complexity.
 
@@ -31,6 +31,6 @@ We tackled eight unknown functions using Bayesian Optimization, aiming to maximi
 
 6. Cake and Stuff - A  5-dimensional optimisation where you’re designing a cake recipe. The model scores your recipe based on multiple objectives: flavor, consistency, calories, waste, and cost. The goal is to bring the total score, reflecting these competing metrics, as close to zero as possible.
 
-7. Sometimes Lazy is Best - This task involves optimizing six hyperparameters of a commonly used machine learning model. Given the popularity of this model, leveraging existing research or prior optimizations might help streamline the process.
+7. Sometimes Lazy is Best - This task involves optimising six hyperparameters of a commonly used machine learning model. Given the popularity of this model, leveraging existing research or prior optimizations might help streamline the process.
 
-8. High-Dimensional Optimization - The final challenge is an 8-dimensional optimisation problem. High-dimensional black-box optimisation is  difficult, so focusing on effective local solutions can be a pragmatic approach.
+8. High-Dimensional Optimisation - The final challenge is an 8-dimensional optimisation problem. High-dimensional black-box optimisation is  difficult, so focusing on effective local solutions can be a pragmatic approach.
